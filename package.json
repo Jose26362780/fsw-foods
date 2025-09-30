@@ -8,9 +8,13 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "prisma": {
+    "seed": "ts-node ./prisma/seed.ts"
+  },
   "dependencies": {
     "@prisma/client": "^6.16.2",
     "next": "15.5.4",
+    "prisma-client": "^0.0.0",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
@@ -24,6 +28,7 @@
     "eslint-config-next": "15.5.4",
     "prisma": "^6.16.2",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
